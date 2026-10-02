@@ -1,0 +1,1 @@
+./WorkQueuStatic.o

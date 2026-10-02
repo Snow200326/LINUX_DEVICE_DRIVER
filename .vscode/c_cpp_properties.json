@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel",
+
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/lib/modules/7.0.0-31-generic/build/include",
+                "/lib/modules/7.0.0-31-generic/build/arch/x86/include",
+                "/usr/src/linux-headers-7.0.0-31-generic/arch/x86/include"
+            ],
+
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
